@@ -64,10 +64,10 @@
 		}
 		
 		//run the function
-		countdown_proc();
+		//countdown_proc();
 		
 		//loop the function
-		interval = setInterval(countdown_proc, 1000);
+		//interval = setInterval(countdown_proc, 1000);
 		
 	}
 }) (jQuery);
