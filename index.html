@@ -88,6 +88,15 @@
                  word-break: keep-all;
             }
 
+            .tech-line{
+                margin-top: 5px;
+
+            }
+            .tech-line li{
+                margin-left: 10px;
+
+            }
+            .align-none tbody td{}
         </style>
 
 
@@ -136,7 +145,7 @@
 <!--header end-->
 
 <section id="home" class="section-padding event-banner-1 bg-fixed parallax-bg overlay purple-overlay"
-         data-stellar-background-ratio="0.5">
+         data-stellar-background-ratio="0">
     <div class="container">
 
        <h2 class="font-40 mb-30 white-text">2018 uEngine </h2>
@@ -176,7 +185,7 @@
 </section>
 
 
-<section id="schedule" class="section-padding gray-bg">
+<section id="schedule" class="section-padding">
     <div class="container">
 
         <div class="text-center mb-80 wow fadeInUp">
@@ -205,7 +214,7 @@
                             <div role="tabpanel" class="tab-pane fade in active" id="day-1">
 
                                 <div class="table-responsive">
-                                    <table class="table">
+                                    <table class="table align-none">
                                         <thead>
                                         <tr>
                                             <th>#</th>
@@ -217,25 +226,54 @@
                                         <tbody>
                                         <tr>
                                             <td>1</td>
-                                            <td>비즈니스 분석과 MSA 아키텍처</td>
+                                            <td>MSA 아키텍처 구현 개론
+                                                <ul class='tech-line'>
+                                                    <li>&bull; Cloud Native Application 의 등장</li>
+                                                    <li>&bull; MSA(Micro Service Architecture)의 속성과 대응 방안</li>
+                                                    <li>&bull; MSA구현의 사례와 난제</li>
+
+                                                </ul>
+                                            </td>
                                             <td>장진영</td>
                                             <td>1:00 pm</td>
                                         </tr>
                                         <tr>
                                             <td>2</td>
-                                            <td>[분석/설계] 도메인 주도 설계, 이벤트 스토밍과 BPMN를 통한 MSA 아키텍처 설계</td>
+                                            <td>[분석/설계] 도메인 주도 설계, 이벤트 스토밍과 BPMN를 통한 MSA 아키텍처 설계
+                                                 <ul class='tech-line'>
+                                                    <li>&bull; DDD(Domain Driven Design)</li>
+                                                    <li>&bull; Event Driven Architecture와 Event Storming</li>
+                                                    <li>&bull; MSA Patterns</li>
+                                                    <li>&bull; BPMN 을 이용한 모델 정제</li>
+                                                </ul>
+                                            </td>
                                             <td>장진영</td>
                                             <td>2:15 pm</td>
                                         </tr>
                                         <tr>
                                             <td>3</td>
-                                            <td>[구현] Spring Cloud 를 사용한 마이크로 서비스 구현</td>
+                                            <td>[구현] Spring Cloud 를 사용한 마이크로 서비스 구현
+                                                <ul class='tech-line'>
+                                                    <li>&bull; Spring Boot, Spring Data REST, JPA</li>
+                                                    <li>&bull; uEngine BPMS</li>
+                                                    <li>&bull; Kafka</li>
+                                                    <li>&bull; NETFLIX OSS(Zuul, Eureka)</li>
+                                                    <li>&bull; VueJS (MVVM)</li>
+                                                </ul>
+                                            </td>
                                             <td>김형국</td>
                                             <td>3:30 pm</td>
                                         </tr>
                                         <tr>
                                             <td>4</td>
-                                            <td>[운영] Devops 로 MicroService 운영 자동화 Story</td>
+                                            <td>[운영] Devops 로 MicroService 운영 자동화 Story
+                                               <ul class='tech-line'>
+                                                    <li>&bull; MSA container orchestration   </li>
+                                                    <li>&bull; MSA network isolation</li>
+                                                    <li>&bull; MSA testing environment</li>
+                                                    <li>&bull; MSA production operation</li>
+                                                </ul>
+                                            </td>
                                             <td>박승필</td>
                                             <td>4:45 pm</td>
                                         </tr>
@@ -341,7 +379,7 @@
 </section>
 
 
-<section class="section-padding">
+<section class="section-padding gray-bg">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -509,7 +547,7 @@
     </div><!-- /.container -->
 </section>
 
-<section id="speaker" class="section-padding gray-bg">
+<section id="speaker" class="section-padding">
     <div class="container">
 
         <div class="text-center mb-80 wow fadeInUp">
@@ -616,7 +654,7 @@
 
 
 <section id="join" class="section-padding event-banner-2 bg-fixed parallax-bg  overlay purple-overlay"
-         data-stellar-background-ratio="0.05">
+         data-stellar-background-ratio="0">
     <div class="container">
         <div class="row">
             <div class="col-md-5 white-text">
@@ -679,7 +717,7 @@
             <div class="col-md-6 col-md-offset-1">
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScRlCA9jgrzziPXG3UPis2LqlGXPrkz7psP3LcEW4KIU_DhxA/viewform?embedded=true"
                         width="100%"
-                        height="1024"
+                        height="924"
                         frameborder="0"
                         marginheight="0"
                         marginwidth="0"
