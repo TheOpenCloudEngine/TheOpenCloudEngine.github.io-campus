@@ -10,8 +10,8 @@ Jekyll 설치는 아주 쉽고 직관적이지만, 시작하기 전에 먼저 �
 ```
 $ git clone https://github.com/TheOpenCloudEngine/theopencloudengine.github.io
 $ cd theopencloudengine.github.io
-$ gem install jekyll
-$ jekyll serve
+$ gem install bundler jekyll
+$ bundle exec jekyll serve
 ```
 
 ## 메뉴 꾸미기
